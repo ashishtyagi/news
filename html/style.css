@@ -1,0 +1,220 @@
+
+
+body {
+	margin: 0 10%;
+	background-image: url('img/mybg.png');
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Oleo Script Swash Caps', sans-serif;
+	font-size: 160px;
+	color: #FF4500;
+	margin: 0 0 0 0;
+
+	/*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+     0px 8px 13px rgba(0,0,0,0.1); /* tumblr logoish hard & close */
+
+	/*text-shadow: 0px 3px 0px #b2a98f,
+     0px 14px 10px rgba(0,0,0,0.15),
+     0px 24px 2px rgba(0,0,0,0.1),
+     0px 34px 30px rgba(0,0,0,0.1); /* milk plastic */
+}
+
+#header {
+	background-image: url('img/header.jpeg');
+	padding-bottom: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
+nav ul {
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #000;
+	padding: 10px 0px;
+	margin-bottom: 20px;
+	list-style: none;
+	text-align: center;
+}
+nav li {
+	display: inline;
+	padding: 0px 10px;
+	font-family: 'Raleway', sans-serif;
+}
+nav a {
+	padding: 20px 25px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.2s;
+}
+nav a:hover {
+	color: #FF4500;
+}
+
+
+.button {
+	font-size: 40px;
+	color: #fff;
+	
+	margin-top: 0px;
+	margin-bottom: 60px;
+	padding: 3px 3px;
+	width: 350px;
+
+	background: #FF4500;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D35A48;
+
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #B13A32;
+
+	border-radius: 10px;
+
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.2),
+	 0px 1px 3px rgba(0,0,0,0.2),
+     0px 8px 13px rgba(0,0,0,0.1),
+     0px 18px 23px rgba(0,0,0,0.1);
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    margin-left: auto;
+	margin-right: auto;
+}
+.button a {
+	text-decoration: none;
+	color: #fff;
+}
+.button:active {
+	border-color: #F2383E;	
+}
+
+
+
+
+#grid_selector {
+	padding-top: 10px;
+
+}
+
+#grid_selector ul {
+	text-align: center;
+	padding-left: 0; /*why there was 40px padding there without zeroing idk*/
+}
+
+#grid_selector a {
+	display: inline;
+}
+
+#grid_selector li {
+	display: inline-block;
+	padding: 15px;
+
+}
+
+.thumb {
+    position: relative;
+}
+.text {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+.thumb:hover .text {
+    display: block
+}
+.thumb:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+
+
+
+
+.item {
+	padding: 30px;
+	border-top-style: solid;
+	border-width: 1px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#where {
+	margin-top: 150px;
+
+}
+
+#mapmock {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	border-style: solid;
+	border-width: 12px;
+	border-color: #FF4500;
+	border-radius: 10px;
+
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.2),
+	 0px 1px 3px rgba(0,0,0,0.2),
+     0px 8px 13px rgba(0,0,0,0.1),
+     0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#hours {
+	background: #F2E9B3;
+	margin-top: 60px;
+	padding: 10px;
+}
+
+
+#thanks-button {
+	margin-top: 100px;
+}
+
+
+
+
+footer {
+	text-align: center;
+	padding-bottom: 70px;
+	font-family: 'Raleway', sans-serif;
+	color: #B3B3B3;
+	margin-top: 160px;
+}
+footer a {
+	text-decoration: none;
+	color: #FF4500;
+}

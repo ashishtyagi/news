@@ -1,0 +1,140 @@
+minimum viable product. 
+
+talking about middleman 
+  not in bad enough shape for social worker doesnt mean good enough shape that they dont need help
+  a feature to add 
+
+hosting. 
+matchmaking process?
+priority 
+  trust middleman to set priority properly.
+  greedy algorithm, give to matching priority by date of request. 
+need to figure out the location awareness element. 
+  is the matching going on based on ... 
+  ... so ... you say ... 
+  middleman to middle man transfers?
+  .. donator has an item, .. 
+    give them the locations that need that. 
+    automatically sort locations based on requests that match with what is about to be donated. 
+    if they have a cart, this is where a greedy algorithm may be helpful. 
+    on map show different pin color depending on matches
+focus on minimum viable product. 
+  small set of social workers. 
+  need working site, ... 
+    enter requests, 
+    enter donations, 
+  map features arent important 
+  matching isnt important. 
+  pie chart of request types... or some graphic way of saying what has the most demand. 
+  want to have some way of seeing the requests, 
+    is this minimum viable?
+map of all locations vs map of match to 
+there are no matches is the primary route, so just pass list of all locations. 
+add feature for middleman to middle man item passing. 
+  matching the need 
+
+
+do we have ids, goal is not to be anon, so ... dont allow anonymous dropoffs. 
+  facebook login (social)
+  vs email. 
+  both confirmation email from recipient to email
+  neither get the hell out, we dont care. 
+  either has dashboard to check at a later date.
+  if has email send email with check dashboard. .. 
+ashish and I will work on the backend
+andrew will continue to work on styles, (ashish suggested bootstrap for themes)
+james, will organize connections ... 
+
+
+
+
+
+page by page json requests and input
+ homepage 
+  calls items fetches list 
+  map page 
+    receives donations, 
+    pulls locations, and their times. 
+
+
+building classes for json requests. 
+  location
+  donation
+   
+   items  
+   location
+   donor
+   
+  middleman
+  recipient
+  donor
+
+
+
+sorry im late this morning, not sure if people actually showed up at 8ish
+dont see any pull requests right now... but be there asap
+
+talking this morning, may be more advantageous to include non clothing items 
+  salvation army also assists with donating larger items appliances other. 
+   food?
+
+concrete tasks. 
+ most of the site framing page list
+   how it works
+   signup / login
+   location page, to show swaps that are set up and awaiting delivery
+   select location page after setting up donation items
+   enter requests 
+   
+ javascript for populating the page ... as well as cart js .. map js ... 
+ python or php to deal with validation and db -> json requests
+ page layouts css styling finalizing
+ 
+
+completed tasks
+  main layout for main page
+  collected information for item types and locations 
+  database design. 
+  
+
+main page design element
+ donation requests at the bottom of the page, populated after click
+  donate to fulfill
+    test cases, looking for size, even if you arent a match can you help 
+homepage. statically served. 
+ javascript to populate ... what javascript framework are we using? 
+ cart of donations
+ onclick show options, size mens womens,
+ pull names / requests for populating bottom section
+
+sms requests. 
+  ebt pin verify poverty?
+  phone # 
+  name 
+  item desired   
+  
+
+recipient
+  needs to opt in to a middleman / location. 
+  middleman needs to manage their list of 
+
+donate form 
+ item description
+ day of donation (send reminder email night before? beginning of day.)
+ location of donation (sets hours available based on this)
+ javascript locate based on zipcode.
+
+ 
+ 
+
+
+what do we need to populate in the database.
+ locations of salvation army stores.
+
+worker at reception end 
+ yes or no matches description 
+  no goes to group description goes to salvation army
+  yes goes to person who is looking for a specific item
+
+
+
